@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="./assets/img/ui/favicon.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <header id="header" class="site-header">
+      <a class="site-header__logo" href="./index.html" aria-label="На главную">
+        <img
+          class="site-header__logo-img"
+          src="./assets/img/ui/logo.svg"
+          alt="EK"
+          width="36"
+          height="36"
+        />
+      </a>
+      <nav class="site-header__nav site-header__nav--desktop" aria-label="Primary">
+        <a class="site-header__link" href="#cases">Кейсы</a>
+        <a class="site-header__link" href="#about">Обо мне</a>
+        <a class="site-header__link" href="#contacts">Контакты</a>
+      </nav>
+      <div class="site-header__cta site-header__cta--desktop">
+        <a class="button button--primary" href="https://drive.google.com/file/d/1xcPa8E2bmCx-bhn7YM0Jtg0jIzmg0tKU/view?usp=sharing">Скачать CV</a>
+      </div>
+      <button
+        class="site-header__toggle"
+        type="button"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <div
+      class="site-header__menu"
+      id="mobileMenu"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Навигация"
+    >
+      <div class="site-header__menu-inner">
+        <div class="site-header__menu-header">
+          <a class="site-header__logo" href="./index.html" aria-label="На главную">
+            <img
+              class="site-header__logo-img"
+              src="./assets/img/ui/logo.svg"
+              alt="EK"
+              width="36"
+              height="36"
+            />
+          </a>
+          <button
+            class="site-header__close"
+            type="button"
+            aria-label="Закрыть меню"
+          >
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <nav class="site-header__nav site-header__nav--mobile" aria-label="Primary">
+          <a class="site-header__link" href="#cases">Кейсы</a>
+          <a class="site-header__link" href="#about">Обо мне</a>
+          <a class="site-header__link" href="#contacts">Контакты</a>
+        </nav>
+        <div class="site-header__cta site-header__cta--mobile">
+          <a class="button button--primary" href="https://drive.google.com/file/d/1xcPa8E2bmCx-bhn7YM0Jtg0jIzmg0tKU/view?usp=sharing">Скачать CV</a>
+        </div>
+      </div>
+    </div>
+    <div class="site-header__backdrop" data-menu-backdrop></div>
+
+    <main class="site-main">
+      <section id="hero" class="hero">
+        <div class="hero__content">
+          <p class="hero__label">UX/UI / Product Designer</p>
+          <h1 class="hero__title">Егор Калугин</h1>
+          <p class="hero__text">
+            Проектирую сложные SaaS, fintech и crypto-продукты. 5+ лет
+            коммерческого опыта, фокус на пользовательских сценариях, логике
+            продукта и точках принятия решений.
+          </p>
+          <div class="hero__actions">
+            <a class="hero__action hero__action--primary" href="#cases">
+              Посмотреть проекты
+            </a>
+            <a class="hero__action hero__action--secondary" href="https://drive.google.com/file/d/1xcPa8E2bmCx-bhn7YM0Jtg0jIzmg0tKU/view?usp=sharing">
+              Скачать CV
+            </a>
+          </div>
+        </div>
+        <div class="hero__media">
+          <div class="hero__photo">
+            <img
+              class="hero__img"
+              src="./assets/img/ui/my-photo.png"
+              alt="Егор Калугин"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="cases" class="cases">
+        <h2 class="cases__title">Мои кейсы</h2>
+        <p class="cases__text">
+          Подборка моих продуктовых кейсов. Фокус на пользовательских сценариях,
+          логике продукта и решениях для реальных web и mobile продуктов.
+        </p>
+        <div class="cases__list">
+          <a class="cases__item" href="./cases/epn-web-app.html">
+            <div class="cases__thumb cases__thumb--epn">EPN</div>
+            <h3 class="cases__item-title">EPN. Web App</h3>
+            <p class="cases__item-text">Fintech / SaaS</p>
+            <p class="cases__item-role">UX/UI / Product Design</p>
+          </a>
+          <a class="cases__item" href="./cases/epn-mobile.html">
+            <div class="cases__thumb cases__thumb--epn">EPN</div>
+            <h3 class="cases__item-title">EPN. Mobile App</h3>
+            <p class="cases__item-text">Fintech</p>
+            <p class="cases__item-role">UX/UI / Product Design</p>
+          </a>
+          <a class="cases__item" href="./cases/sx-org.html">
+            <div class="cases__thumb cases__thumb--sx">SX</div>
+            <h3 class="cases__item-title">SX. Proxy Platform</h3>
+            <p class="cases__item-text">Infrastructure / SaaS</p>
+            <p class="cases__item-role">UX/UI / Product Design</p>
+          </a>
+          <a class="cases__item" href="./cases/dv-web-app.html">
+            <div class="cases__thumb cases__thumb--dv">DV</div>
+            <h3 class="cases__item-title">DV. Crypto Merchant</h3>
+            <p class="cases__item-text">Fintech / Crypto</p>
+            <p class="cases__item-role">UX/UI / Product Design</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <h2 class="about__title">Немного обо мне</h2>
+        <p class="about__text">
+          Я UX/UI и продуктовый дизайнер с опытом работы в продуктовых командах.
+          Работал над web и mobile приложениями для международного рынка. Мыслю
+          системами и пользовательскими сценариями, фокусируясь на логике
+          продукта.
+        </p>
+        <div class="about__blocks">
+          <article class="about__block">
+            <h3 class="about__block-title">UX / Product Design</h3>
+            <ul class="about__list">
+              <li class="about__list-item">User Flow, CJM, User Stories</li>
+              <li class="about__list-item">
+                Информационная архитектура и карта сайта
+              </li>
+              <li class="about__list-item">
+                Wireframes и интерактивное прототипирование
+              </li>
+              <li class="about__list-item">
+                UX-review и улучшение существующих интерфейсов
+              </li>
+              <li class="about__list-item">
+                Анализ конкурентов и UX-паттернов
+              </li>
+              <li class="about__list-item">
+                Проектирование web и mobile приложений
+              </li>
+            </ul>
+          </article>
+          <article class="about__block">
+            <h3 class="about__block-title">UI / Visual Design</h3>
+            <ul class="about__list">
+              <li class="about__list-item">Web и Mobile UI</li>
+              <li class="about__list-item">Дизайн-системы и UI-киты</li>
+              <li class="about__list-item">
+                Типографика и визуальная иерархия
+              </li>
+              <li class="about__list-item">
+                Работа с состояниями интерфейсов
+              </li>
+              <li class="about__list-item">
+                Микровзаимодействия и базовая анимация
+              </li>
+              <li class="about__list-item">
+                Адаптивные интерфейсы и responsive-дизайн
+              </li>
+            </ul>
+          </article>
+          <article class="about__block">
+            <h3 class="about__block-title">Инструменты</h3>
+            <ul class="about__list">
+              <li class="about__list-item">Figma, Miro, ProtoPie</li>
+              <li class="about__list-item">
+                Adobe Photoshop, Illustrator, After Effects
+              </li>
+              <li class="about__list-item">Cinema 4D (Redshift)</li>
+              <li class="about__list-item">Webflow, Framer (no-code)</li>
+            </ul>
+          </article>
+          <article class="about__block">
+            <h3 class="about__block-title">Техническое и growth-мышление</h3>
+            <ul class="about__list">
+              <li class="about__list-item">
+                Понимание frontend / backend-ограничений
+              </li>
+              <li class="about__list-item">HTML, CSS, JavaScript (базово)</li>
+              <li class="about__list-item">
+                Работа с пользовательским поведением и воронками
+              </li>
+              <li class="about__list-item">
+                Маркетинговые метрики: CTR, CR, CPA
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacts" class="contacts">
+        <h2 class="contacts__title">Давайте обсудим проект</h2>
+        <p class="contacts__text">
+          Открыт к новым проектам и предложениям. Буду рад обсудить продукт,
+          задачи или возможное сотрудничество.
+        </p>
+        <div class="contacts__cards">
+          <div class="contacts__card">
+            <span class="contacts__icon" aria-hidden="true">
+              <img
+                class="contacts__icon-img"
+                src="./assets/img/ui/email.svg"
+                alt=""
+                aria-hidden="true"
+                width="24"
+                height="24"
+              />
+            </span>
+            <p class="contacts__label">Email</p>
+            <a class="contacts__value" href="mailto:kaluginhq@gmail.com">
+              kaluginhq@gmail.com
+            </a>
+            <img
+              class="contacts__arrow"
+              src="./assets/img/ui/arrow.svg"
+              alt=""
+              aria-hidden="true"
+              width="22"
+              height="22"
+            />
+          </div>
+          <div class="contacts__card">
+            <span class="contacts__icon" aria-hidden="true">
+              <img
+                class="contacts__icon-img"
+                src="./assets/img/ui/telegram.svg"
+                alt=""
+                aria-hidden="true"
+                width="24"
+                height="24"
+              />
+            </span>
+            <p class="contacts__label">Telegram</p>
+            <a class="contacts__value" href="https://t.me/egorkaluginwork">
+              @egorkaluginwork
+            </a>
+            <img
+              class="contacts__arrow"
+              src="./assets/img/ui/arrow.svg"
+              alt=""
+              aria-hidden="true"
+              width="22"
+              height="22"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="site-footer">
+      <div class="site-footer__left">© 2026 Егор Калугин</div>
+      <div class="site-footer__right">UX/UI / Product Designer</div>
+    </footer>
+  </body>
+</html>
