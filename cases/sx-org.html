@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SX. Web app</title>
+    <link rel="icon" type="image/png" href="../assets/img/ui/favicon.png" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/case.css" />
+    <script src="../js/main.js" defer></script>
+  </head>
+  <body>
+    <header id="header" class="site-header">
+      <a class="site-header__logo" href="../index.html" aria-label="На главную">
+        <img
+          class="site-header__logo-img"
+          src="../assets/img/ui/logo.svg"
+          alt="EK"
+          width="36"
+          height="36"
+        />
+      </a>
+      <nav class="site-header__nav site-header__nav--desktop" aria-label="Primary">
+        <a class="site-header__link" href="../index.html#about">Обо мне</a>
+        <a class="site-header__link" href="../index.html#cases">Кейсы</a>
+        <a class="site-header__link" href="../index.html#contacts">Контакты</a>
+      </nav>
+      <div class="site-header__cta site-header__cta--desktop">
+        <a class="button button--primary" href="https://drive.google.com/file/d/1xcPa8E2bmCx-bhn7YM0Jtg0jIzmg0tKU/view?usp=sharing">Скачать CV</a>
+      </div>
+      <button
+        class="site-header__toggle"
+        type="button"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <div
+      class="site-header__menu"
+      id="mobileMenu"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Навигация"
+    >
+      <div class="site-header__menu-inner">
+        <div class="site-header__menu-header">
+          <a class="site-header__logo" href="../index.html" aria-label="На главную">
+            <img
+              class="site-header__logo-img"
+              src="../assets/img/ui/logo.svg"
+              alt="EK"
+              width="36"
+              height="36"
+            />
+          </a>
+          <button
+            class="site-header__close"
+            type="button"
+            aria-label="Закрыть меню"
+          >
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <nav class="site-header__nav site-header__nav--mobile" aria-label="Primary">
+          <a class="site-header__link" href="../index.html#about">Обо мне</a>
+          <a class="site-header__link" href="../index.html#cases">Кейсы</a>
+          <a class="site-header__link" href="../index.html#contacts">Контакты</a>
+        </nav>
+        <div class="site-header__cta site-header__cta--mobile">
+          <a class="button button--primary" href="https://drive.google.com/file/d/1xcPa8E2bmCx-bhn7YM0Jtg0jIzmg0tKU/view?usp=sharing">Скачать CV</a>
+        </div>
+      </div>
+    </div>
+    <div class="site-header__backdrop" data-menu-backdrop></div>
+
+    <main class="site-main case-page">
+      <section class="case-hero">
+        <a class="case-hero__back" href="../index.html">
+          <img
+            class="case-hero__back-icon"
+            src="../assets/img/ui/arrow-back.svg"
+            alt=""
+            aria-hidden="true"
+            width="18"
+            height="18"
+          />
+          <span>Назад</span>
+        </a>
+        <div class="case-hero__icon">
+          <img
+            class="case-hero__icon-img"
+            src="../assets/img/ui/sx.svg"
+            alt="SX"
+            width="56"
+            height="56"
+          />
+        </div>
+        <h1 class="case-hero__title">SX. Web app</h1>
+        <p class="case-hero__meta">
+          SaaS / Infrastructure  •  Роль: UX/UI / Product Designer  •  Период: 2023–2025
+        </p>
+      </section>
+
+      <section class="case-section" id="context">
+        <h2 class="case-section__title">1. Контекст проекта</h2>
+        <div class="case-section__content">
+          <p>
+            SX.ORG — сервис прокси, разработанный с нуля как маркетплейс и
+            операционная платформа для работы с прокси-инфраструктурой.
+          </p>
+          <div class="case-section__block">
+            <p class="case-section__lead">Ключевые особенности продукта:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Покупка и продажа прокси (через дочерний сервис ProxySell.com)</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Первый на рынке продукт с подписочной моделью прокси</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>
+                  Фокус на техническую аудиторию (арбитраж, маркетинг, automation, scraping)
+                </span>
+              </li>
+            </ol>
+          </div>
+          <p>
+            В отличие от большинства proxy-сервисов, SX.ORG проектировался не как
+            витрина, а как рабочий инструмент для ежедневного использования в
+            условиях высокой нагрузки.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <h2 class="case-section__title">2. Моя роль и команда</h2>
+        <div class="case-section__content">
+          <div class="case-section__meta">
+            <p>Моя роль: <strong>UX/UI / Product Designer</strong></p>
+            <p>Формат работы: <strong>Продуктовая команда</strong></p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Зоны ответственности:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Формирование UX-архитектуры продукта с нуля</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>
+                  Проектирование ключевых сценариев (покупка, настройка, масштабирование)
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Дизайн интерфейсов (desktop-first)</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Участие в продуктовых решениях и приоритизации сценариев</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Взаимодействие:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Product Owner — приоритизация сценариев</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Backend — API, логика портов, биллинг</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Frontend — совместная проработка сложных UI-паттернов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>QA-инженеры — тестирование сценариев, состояний и edge-кейсов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">5</span>
+                <span>
+                  Аналитики — формирование гипотез, продуктовых и UX-метрик
+                </span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <h2 class="case-section__title">3. Цели проекта</h2>
+        <div class="case-section__content">
+          <div class="case-section__block">
+            <p class="case-section__lead">Бизнес-цели:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Создать масштабируемую proxy-платформу, а не разовую покупку</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Повысить LTV за счет подписочной модели</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Масштабировать продукт под high-load пользователей</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Снизить нагрузку на поддержку</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Пользовательские цели:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Быстро получить прокси и начать работу</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Управлять десятками и сотнями прокси без ручного ада</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Понимать расход трафика и деньги</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Масштабироваться без повторной настройки</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <h2 class="case-section__title">4. Исследования и аналитика</h2>
+        <div class="case-section__content">
+          <div class="case-section__block">
+            <p class="case-section__lead">Пользовательский контекст и наблюдения:</p>
+            <p>
+              SX.ORG создавался как инфраструктурный сервис для регулярной работы с
+              прокси, а не разовой покупки. Пользователи работают с десятками и
+              сотнями прокси параллельно, часто в условиях высокой нагрузки и
+              ограниченного времени. Пользователь ожидает быстро получить рабочий
+              результат, а не разбираться в интерфейсе.
+            </p>
+            <p class="case-section__lead">Продуктовые решения формировались на основе:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Анализа поведения пользователей существующих proxy-сервисов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Обратной связи от активных пользователей (арбитраж, automation, команды)</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Анализа обращений в поддержку и типовых ошибок</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Наблюдений за массовыми и повторяющимися сценариями работы</span>
+              </li>
+            </ol>
+            <p class="case-section__lead">Ключевые пользовательские барьеры:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Сложный старт и высокий порог входа</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Разрыв между покупкой прокси и их фактическим использованием</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Непрозрачный расход трафика и средств</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Отсутствие удобных инструментов для массовых операций</span>
+              </li>
+              <li>
+                <span class="case-section__badge">5</span>
+                <span>Интерфейсы, не рассчитанные на масштабирование</span>
+              </li>
+            </ol>
+          </div>
+
+          <hr class="case-section__divider" />
+
+          <div class="case-section__block">
+            <p class="case-section__lead">Были изучены proxy-сервисы и инфраструктурные SaaS-решения с фокусом на:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Скорость получения результата</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Поддержку массовых сценариев</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Прозрачность данных и расходов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Удобство интеграции с внешними инструментами</span>
+              </li>
+            </ol>
+            <p class="case-section__lead">Ключевые проблемы рынка:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Интерфейсы ориентированы на разовые действия</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Масштабирование требует ручной работы</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Отсутствует предсказуемость расходов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Слабая связь между прокси, портами и трафиком</span>
+              </li>
+            </ol>
+          </div>
+
+          <hr class="case-section__divider" />
+
+          <div class="case-section__block">
+            <p class="case-section__lead">Выводы аналитического этапа:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Proxy-сервис должен проектироваться как рабочий инструмент, а не витрина</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Массовые сценарии — основной пользовательский кейс</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Прозрачность трафика снижает ошибки и нагрузку на поддержку</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Подписочная модель упрощает масштабирование и планирование расходов</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section case-section--audience">
+        <h2 class="case-section__title">5. Аудитория и поведенческий контекст</h2>
+        <div class="case-section__content">
+          <div class="case-section__block">
+            <p class="case-section__lead">Основная аудитория:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>
+                  Media buyers / performance-маркетологи — ежедневно масштабируют
+                  пулы прокси под кампании и требуют стабильной работы в high-load.
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>
+                  Арбитражники трафика — работают с десятками и сотнями прокси,
+                  ожидая быстрой замены, контроля расхода и надежности.
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>
+                  Automation / scraping — запускают массовые задачи и требуют
+                  предсказуемой нагрузки, стабильных портов и прозрачных лимитов.
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>
+                  Технические команды — ведут инфраструктуру, мониторят качество
+                  трафика и масштабируют прокси под разные проекты.
+                </span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="case-section__block">
+            <p class="case-section__lead">Контекст использования:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>
+                  Работа в режиме «запуска» — решения принимаются быстро, нужен
+                  результат без длительной настройки и ожиданий.
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>
+                  Параллельные задачи — одновременное управление десятками и
+                  сотнями прокси требует массовых операций.
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>
+                  Высокий уровень стресса — ошибки и задержки влияют на бюджеты,
+                  поэтому важны прозрачность и контроль.
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>
+                  Минимальная терпимость к лишним шагам — интерфейс должен
+                  сокращать рутину и исключать ручные действия.
+                </span>
+              </li>
+            </ol>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="case-section case-section--architecture">
+        <div class="case-section__content">
+          <div class="case-section__block">
+            <h2 class="case-section__title">6. Архитектура проекта</h2>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Глобальная функциональная карта:</p>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/architecture.png"
+                alt="Глобальная функциональная карта"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section case-section--architecture case-section--scenarios">
+        <div class="case-section__content">
+          <div class="case-section__block">
+            <h2 class="case-section__title">7. Ключевые сценарии и решения</h2>
+          </div>
+
+          <div class="case-section__scenario">
+            <p class="case-section__scenario-title">Сценарий 1. Dashboard</p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Задача:</p>
+            <p>
+              Сделать Dashboard центральной точкой управления сервисом, который
+              быстро вводит нового пользователя в продукт и дает опытным
+              пользователям контроль над состоянием прокси и расходами
+            </p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Контекст:</p>
+            <p>
+              SX — сервис прокси, разработанный с нуля. Аудитория — от новичков до
+              технически опытных пользователей. Один экран должен был работать для
+              разных стадий использования продукта.
+            </p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Проблема:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Новые пользователи не понимают, с чего начать</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Опытным пользователям важны данные, а не инструкции</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Универсальный Dashboard перегружает либо новичков, либо продвинутых</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Гипотезы:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Dashboard должен адаптироваться под стадию пользователя</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Для новых пользователей важнее сценарий, чем метрики</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Для активных пользователей важнее состояние системы, чем онбординг</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Решение:</p>
+            <p>Спроектирован двухрежимный Dashboard:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Dashboard для новых пользователей — пошаговый сценарий начала работы</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Основной Dashboard — агрегированная информация по балансу, прокси и трафику</span>
+              </li>
+            </ol>
+            <p>Режим определяется автоматически по состоянию аккаунта</p>
+          </div>
+          <div class="case-section__block">
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-1-1.png"
+                alt="Сценарий 1. Dashboard — экран 1"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-1-2.png"
+                alt="Сценарий 1. Dashboard — экран 2"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Результат:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Снижен порог входа в продукт</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Пользователи быстрее доходят до первого использования</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Dashboard масштабируется без усложнения интерфейса</span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="case-section__scenario">
+            <p class="case-section__scenario-title">Сценарий 2. Прокси по ссылке</p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Задача:</p>
+            <p>
+              Дать пользователю быстрый способ получить актуальный список прокси в
+              формате IP:PORT без ручного управления портами.
+            </p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Контекст:</p>
+            <p>
+              Пользователи работают с прокси через софт, боты и скрипты. Важно не
+              хранение портов, а постоянно обновляемый источник прокси.
+            </p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Проблема:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Ручное управление портами замедляет работу</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Прокси устаревают и требуют постоянного обновления</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Сложно быстро собрать нужный пул под конкретную задачу</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Гипотезы:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Ссылка с динамическим списком прокси упрощает интеграцию</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Фильтры важнее индивидуальных настроек портов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Один универсальный формат снижает порог использования</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Решение:</p>
+            <p>Создан раздел «Прокси по ссылке»:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Конфигуратор фильтров (тип, страна, формат, лимит)</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Генерация одной ссылки с актуальными прокси</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Поддержка TXT / JSON форматов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Автообновление списка без действий пользователя</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-2-1.png"
+                alt="Сценарий 2. Прокси по ссылке — экран 1"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-2-2.png"
+                alt="Сценарий 2. Прокси по ссылке — экран 2"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-2-3.png"
+                alt="Сценарий 2. Прокси по ссылке — экран 3"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Результат:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Пользователи быстрее подключают прокси к инструментам</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>
+                  Снижен порог входа для технических и нетехнических пользователей
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Прокси используются как сервис, а не как статичный ресурс</span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="case-section__scenario">
+            <p class="case-section__scenario-title">Сценарий 3. Создать новый порт</p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Задача:</p>
+            <p>
+              Позволить пользователю быстро и без ошибок создать прокси-порт под
+              конкретную задачу.
+            </p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Контекст:</p>
+            <p>
+              Пользователи работают с разными geo, типами прокси и сценариями
+              (арбитраж, парсинг, фарм). Неправильная настройка порта = потеря
+              денег и времени.
+            </p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Проблема:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Сложные и перегруженные формы создания портов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Пользователи не понимают, какие параметры критичны</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Высокий риск ошибок при первичной настройке</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Гипотезы:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Пошаговый конструктор снижает когнитивную нагрузку</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Выбор по принципу «от общего к частному» ускоряет настройку</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Визуальные подсказки по доступности geo упрощают решение</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Решение:</p>
+            <p>Реализован конструктор создания порта:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>
+                  Последовательные шаги: тип → GEO → регион → ASN → расширенные настройки
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Смарт-список стран с индикаторами доступности</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Предустановленные дефолты для быстрого старта</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Создание порта только после прохождения ключевых этапов</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-3-1.png"
+                alt="Сценарий 3. Создать новый порт — экран 1"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-3-2.png"
+                alt="Сценарий 3. Создать новый порт — экран 2"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-3-3.png"
+                alt="Сценарий 3. Создать новый порт — экран 3"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Результат:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Пользователи быстрее создают рабочие порты</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Снижено количество ошибок и некорректных конфигураций</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Создание порта стало предсказуемым и масштабируемым процессом</span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="case-section__scenario">
+            <p class="case-section__scenario-title">Сценарий 4. Мои прокси порты</p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Задача:</p>
+            <p>
+              Дать пользователю удобный контроль и управление большим количеством
+              портов в одном месте.
+            </p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Контекст:</p>
+            <p>
+              Активные пользователи работают с десятками и сотнями портов
+              одновременно. Порты создаются, архивируются, переиспользуются и
+              часто меняют статус.
+            </p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Проблема:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Сложно ориентироваться в большом списке портов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Нет быстрого понимания статуса и параметров порта</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Гипотезы:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Табличный формат с ключевыми параметрами ускоряет навигацию</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Фильтры и поиск must-have при большом объеме портов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Быстрые действия прямо из списка экономят время</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Решение:</p>
+            <p>Реализован экран «Мои прокси-порты», основанный на реальном опыте использования:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Список портов с ключевыми параметрами (тип, гео, количество)</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Поиск и фильтрация по типу и стране</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Архив для неактуальных портов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Быстрые действия и массовое управление</span>
+              </li>
+              <li>
+                <span class="case-section__badge">5</span>
+                <span>Быстрое создание нового порта из списка</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-4-1.png"
+                alt="Сценарий 4. Мои прокси порты — экран 1"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-4-2.png"
+                alt="Сценарий 4. Мои прокси порты — экран 2"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-4-3.png"
+                alt="Сценарий 4. Мои прокси порты — экран 3"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Результат:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Пользователи быстрее находят нужные порты</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Управление большим количеством портов стало предсказуемым</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Экран масштабируется под рост количества портов без усложнения UX</span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="case-section__scenario">
+            <p class="case-section__scenario-title">Сценарий 5. Наши тарифы</p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Задача:</p>
+            <p>
+              Дать пользователю понятный и гибкий способ выбрать и купить прокси
+              под разные сценарии использования: тесты, масштабирование,
+              постоянную работу.
+            </p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Контекст:</p>
+            <p>
+              SX сервис для профессиональных пользователей (арбитраж, парсинг,
+              автоматизация), где модели потребления прокси сильно различаются:
+            </p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Одни считают трафик</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Другие количество портов и срок</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Третьи хотят подписку без постоянных перерасчетов</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Проблема:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Универсальный тариф не покрывает разные паттерны использования</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Сложно понять итоговую стоимость до оплаты</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Подписки и pay-as-you-go обычно смешаны и перегружены</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Пользователь не понимает, что выгоднее именно для его кейса</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Гипотезы:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Разделение тарифов по модели оплаты снизит когнитивную нагрузку</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Конструктор тарифов упростит принятие решения</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Прозрачный расчет стоимости повысит доверие</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Подписка должна ощущаться как «простое решение без контроля»</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Решение:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>
+                  Разделили тарифы на два независимых сценария: 1) С оплатой по трафику (гибкий конструктор), 2) Безлимитные порты (подписка)
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Конструктор с пошаговой настройкой: тип прокси, количество, срок аренды</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Мгновенный пересчет итоговой стоимости</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Четкое сравнение условий без скрытых параметров</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-5-1.png"
+                alt="Сценарий 5. Наши тарифы — экран 1"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-5-2.png"
+                alt="Сценарий 5. Наши тарифы — экран 2"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Результат:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Пользователь быстрее выбирает подходящую модель оплаты</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Снижен порог входа для новых клиентов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Увеличено использование подписок для долгих сценариев</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Меньше вопросов в поддержку по тарифам и расчетам</span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="case-section__scenario">
+            <p class="case-section__scenario-title">Сценарий 6. Реферальная программа</p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Задача:</p>
+            <p>
+              Дать пользователям простой инструмент для привлечения новых клиентов
+              и прозрачного заработка внутри продукта.
+            </p>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Контекст:</p>
+            <p>
+              SX сервис с сильным сарафаном (арбитраж, команды, агентства).
+              Пользователи готовы рекомендовать продукт, если:
+            </p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Понятны условия</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Видно деньги</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Просто вывести вознаграждение</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Проблема:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Реферальные системы часто выглядят как «чёрный ящик»</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>
+                  Нет прозрачной связи: кто пришёл → сколько заработал → когда можно вывести
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Сложно управлять несколькими кодами и источниками трафика</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Гипотезы:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>
+                  Если пользователь видит деньги и статус начислений, он активнее привлекает рефералов
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>
+                  Разделение на этапы (коды → начисления → выплаты) снижает путаницу
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>
+                  Возможность создавать несколько кодов повышает контроль источников трафика
+                </span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Решение:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Отдельный раздел «Реферальная программа»</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Три логических блока: Основное, Ссылки и коды, Выплаты</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Прозрачные статусы: в ожидании / выплачено / отклонено</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Явные условия вывода и ограничения</span>
+              </li>
+            </ol>
+          </div>
+          <div class="case-section__block">
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-6-1.png"
+                alt="Сценарий 6. Реферальная программа — экран 1"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-6-2.png"
+                alt="Сценарий 6. Реферальная программа — экран 2"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="case-media">
+              <img
+                class="case-media__img"
+                src="../assets/img/cases/sx-org/scenario-6-3.png"
+                alt="Сценарий 6. Реферальная программа — экран 3"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+          <div class="case-section__block">
+            <p class="case-section__lead">Результат:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Пользователи начали активнее использовать реферальную программу</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Снизилось количество вопросов в поддержку по выплатам</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Реферальный канал стал прогнозируемым и управляемым источником роста</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section" id="results">
+        <h2 class="case-section__title">8. Результаты проекта</h2>
+
+        <div class="case-section__content">
+          <div class="case-section__block">
+            <p>
+              SX.ORG был спроектирован как продукт для профессиональных пользователей,
+              работающих с прокси в высоконагруженных сценариях. Основной фокус —
+              скорость, контроль и масштабируемость. UX-архитектура строилась вокруг
+              реальных рабочих процессов, а не отдельных экранов.
+            </p>
+          </div>
+
+          <div class="case-section__block">
+            <p class="case-section__lead">Ключевые результаты проекта:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>
+                  Продукт полностью спроектирован с нуля: от архитектуры до ключевых пользовательских сценариев
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>
+                  Сформирована понятная и расширяемая UX-структура для сложного proxy-сервиса
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>
+                  Упрощен вход в продукт через onboarding-dashboard для новых пользователей
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>
+                  Снижено количество ошибок при создании и настройке портов за счёт пошагового конструктора
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">5</span>
+                <span>
+                  Ускорен доступ к прокси (IP:PORT, ссылки, выгрузки) для рабочих сценариев
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">6</span>
+                <span>
+                  Реализованы две бизнес-модели в одном продукте: оплата по трафику и подписки
+                </span>
+              </li>
+              <li>
+                <span class="case-section__badge">7</span>
+                <span>Обеспечена прозрачность расходов и использования трафика</span>
+              </li>
+              <li>
+                <span class="case-section__badge">8</span>
+                <span>Улучшена управляемость больших пулов прокси</span>
+              </li>
+              <li>
+                <span class="case-section__badge">9</span>
+                <span>Добавлен механизм органического роста через реферальную программу</span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="case-section__block">
+            <p>
+              Проект показал, что сложный инфраструктурный сервис можно сделать
+              управляемым и предсказуемым за счёт системного продуктового UX.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section" id="summary">
+        <h2 class="case-section__title">9. Вывод</h2>
+        <div class="case-section__content">
+          <div class="case-section__block">
+            <p>
+              Проект SX.ORG подтвердил мой подход к продуктовому дизайну в сложных
+              технических сервисах: UX должен строиться не вокруг интерфейсов, а
+              вокруг рабочих сценариев, данных и точек принятия решений.
+            </p>
+            <p>
+              При создании продукта с нуля ключевой задачей стало выстраивание
+              устойчивой архитектуры, способной масштабироваться вместе с нагрузкой,
+              пользователями и бизнес-моделями. Решения принимались с опорой на
+              реальные паттерны использования proxy-сервисов, опыт предыдущих
+              продуктов и обратную связь от активных пользователей.
+            </p>
+          </div>
+
+          <div class="case-section__block">
+            <p class="case-section__lead">Основные выводы проекта:</p>
+            <ol class="case-section__list">
+              <li>
+                <span class="case-section__badge">1</span>
+                <span>Пользователи мыслят задачами и результатами, а не настройками</span>
+              </li>
+              <li>
+                <span class="case-section__badge">2</span>
+                <span>Чем сложнее продукт — тем важнее ясная UX-архитектура</span>
+              </li>
+              <li>
+                <span class="case-section__badge">3</span>
+                <span>Пошаговые и модульные сценарии снижают количество ошибок</span>
+              </li>
+              <li>
+                <span class="case-section__badge">4</span>
+                <span>Прозрачность данных повышает доверие и снижает нагрузку на поддержку</span>
+              </li>
+              <li>
+                <span class="case-section__badge">5</span>
+                <span>Масштабируемость закладывается на уровне сценариев, а не экранов</span>
+              </li>
+              <li>
+                <span class="case-section__badge">6</span>
+                <span>UX напрямую влияет на удержание, LTV и скорость работы пользователя</span>
+              </li>
+            </ol>
+          </div>
+
+          <div class="case-section__block">
+            <p>
+              Этот кейс демонстрирует мой опыт проектирования B2B и high-risk
+              сервисов с высокой сложностью, а также умение превращать технические
+              системы в понятные и управляемые продукты.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="site-footer">
+      <div class="site-footer__left">© 2026 Егор Калугин</div>
+      <div class="site-footer__right">UX/UI / Product Designer</div>
+    </footer>
+  </body>
+</html>
