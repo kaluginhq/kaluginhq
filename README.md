@@ -44,6 +44,6 @@ No illusions. Just real digital.
 
 ## Contact
 
-Telegram: https://t.me/kaluginhq  
+Telegram: https://t.me/kaluginhqwork
 Website: https://kaluginhq.com  
 Email: egor@kaluginhq.com
